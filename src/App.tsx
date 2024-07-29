@@ -6,14 +6,26 @@ import Category from './components/Category';
 import CategoryCard from './components/CategoryCard';
 import FeatureSectionFruits from './components/FeatureSectionFruits';
 import FeatureSectionBreakfast from './components/FeatureSectionBreakfast';
+import Banner from './components/Banner';
+import BlogCard from './components/BlogCard';
+import Newsletter from './components/Newsletter';
+import Feature from './components/Feature';
+import Footer from './components/Footer';
 function App() {
   return (
     <div className="App">
       <Navbar />
+      
       <Hero/>
       <Category/>
       <FeatureSectionFruits/>
       <FeatureSectionBreakfast/>
+      <Banner/>
+      <BlogCard/>
+      <Newsletter/>
+      <Feature/>
+      <Footer/>
+    
     </div>
   );
 }
