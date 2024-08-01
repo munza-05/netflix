@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Navbar from './components/Navbar';
 import './App.css';
 import Hero from './components/Hero';
@@ -11,11 +11,12 @@ import BlogCard from './components/BlogCard';
 import Newsletter from './components/Newsletter';
 import Feature from './components/Feature';
 import Footer from './components/Footer';
+
 function App() {
+  const[showCart,setshowCart]=useState(false);
   return (
     <div className="App">
-      <Navbar />
-      
+      <Navbar  />
       <Hero/>
       <Category/>
       <FeatureSectionFruits/>
@@ -25,6 +26,9 @@ function App() {
       <Newsletter/>
       <Feature/>
       <Footer/>
+      
+      
+      
     
     </div>
   );

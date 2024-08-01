@@ -6,7 +6,9 @@ const Navbar = () => {
   const cartItemCount = 0; 
 
   return (
+    
     <nav className="bg-white p-4">
+      
       <div className="container mx-auto">
         <div className="flex justify-between items-center">
           <div className="text-lg font-bold">E-commerce Store</div>
